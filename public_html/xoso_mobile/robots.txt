@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+
+Disallow: /sms/
+Disallow: /dang-ky.html
+Disallow: /application/modules/admin/
+
+

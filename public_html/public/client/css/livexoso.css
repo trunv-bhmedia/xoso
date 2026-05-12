@@ -1,0 +1,140 @@
+body{
+	background:#ffffff;
+}
+#header{
+    height: 90px;
+    width: 100%;
+    display: block;
+    background: url(/public/client/images/livexoso/header.png) no-repeat top left;
+	background-size: 100%;
+}
+.content {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+.main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0;
+}
+#giai-mn{
+	width: 50%;
+	float:left;
+}
+#giai-mt{
+	width: 25%;
+	float:left;
+}
+#giai-mb{
+	width: 25%;
+	float:left;
+}
+
+.box-result {
+    border: none;
+    background: #ffffff;
+    width: 440px;
+    margin: 0 auto;
+}
+
+div#xstt-block-mt tr td:first-child {
+    display: block;
+}
+.content-wrap{
+	margin: 0;
+	padding: 0;
+}
+.headerMN {
+    height: 55px;
+    background: #d60000;
+    padding: 1px;
+}
+.ngaythang {
+    width: 5%;
+    text-align: center;
+    color: #fff;
+    float: left;
+	padding: 2px 0;
+}
+.locarea {
+    float: left;
+}
+
+.locarea-mt {
+	display:flex;
+}
+.locarea-mb {
+    text-align: center;
+    background: #ff6000;
+    width: 25%;
+	display:flex;
+}
+.locitem.locitem-mb {
+    text-align: center;
+    width: 100%;
+	padding: 2px 0;
+}
+.locitem {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+	padding: 2px 0;
+}
+.locitem-mt{
+	background: rgb(0,138,255);
+	background: linear-gradient(90deg, rgba(0,138,255,1) 0%, rgba(0,113,209,1) 100%);
+}
+.locitem-mn{
+	background: rgb(214,0,0);
+	background: linear-gradient(90deg, rgba(214,0,0,1) 0%, rgba(235,114,114,1) 100%);
+}
+.locitem p.locname, .locitem p.codename {
+    text-align: center;
+}
+.locitem p.locname{
+	font-size: 25px;
+    line-height: 36px;
+}
+div#xstt-block-mn table.tbl-tt tr:first-child, div#xstt-block-mn table.tbl-tt tr:nth-child(2), div#xstt-block-mt table.tbl-tt td:first-child, div#xstt-block-mt table.tbl-tt tr:first-child, div#xstt-block-mt table.tbl-tt tr:nth-child(2)
+{
+    display: none;
+}
+table.tbl-tt td:first-child {
+    background: #d60000;
+    width: 76px;
+    color: #ffffff;
+    text-align: center;
+	font-weight: bold;
+	font-size: 27px;
+}
+.ngaythang p:first-child {
+	font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+}
+#kqxs-block-mb table.tbl-tt td:first-child, #kqxs-mb table.tbl-tt td:first-child, #xstt-block-mb table.tbl-tt td:first-child{
+    background: #ff6000;
+	font-weight: bold;
+}
+
+table.tbl-tt td {
+    line-height: 25px;
+}
+table.tbl-tt {
+    height: calc(100vh - 200px);
+}
+table.tbl-tt img {
+    height: 25px;
+	object-fit: contain;
+}
+div#xstt-block-mn,div#xstt-block-mt {
+    border-right: 1px solid #e1e1e1;
+}
+#xstt-block-mb .box-information {
+	margin-top: 23px;
+}
+
+
+

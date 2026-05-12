@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+User-agent: AhrefsBot
+Disallow: / 
+
+User-agent: coccocbot-web
+Disallow: / 
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: bingbot
+Disallow: /
+
+Disallow: /sms/
+Disallow: /application/modules/admin/
+
+sitemap: http://xoso.com/sitemap/sitemap.xml
