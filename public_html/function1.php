@@ -37,5 +37,4 @@ function curl_page($url,$canchong,$chivo,$p1,$p2){
 		curl_close($ch);
 		return $result;
 	}
-	
 ?>
